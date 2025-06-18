@@ -3557,7 +3557,7 @@ div#mCSB_1_container{
 
 .main-header.style-two .header-upper .mail-box{
   position: relative;
-  padding: 34px 0px 31px 0px;
+  padding: 10px 0px;
 }
 
 .main-header.style-two .header-upper .mail-box .inner{
@@ -3614,7 +3614,7 @@ div#mCSB_1_container{
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 25px 0px 25px 0px;
+  padding: 10px 0px;
 }
 
 .main-header.style-two .header-upper .phone-box .inner{
@@ -5965,4 +5965,52 @@ div#mCSB_1_container{
 
 .news-block-one .inner-box .lower-content p{
   margin-bottom: 20px;
+}
+
+/*udara was here*/
+
+.hidden{
+  display: none !important;
+}
+/*messenger float btn*/
+.float {
+  position: fixed;
+  width: 48px;
+  height: 48px;
+  bottom: 20px;
+  right: 80px;
+  background-color: #168aff;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 25px;
+  z-index: 100;
+}
+.my-float {
+  height: 25px;
+  margin-top: 11px;
+}
+
+@media (max-width: 1280px) {
+  .xl-only {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl-only {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 1280px) {
+  .max-xl-only {
+    display: flex !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .max-xl-only {
+    display: none !important;
+  }
 }
