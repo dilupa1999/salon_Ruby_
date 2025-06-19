@@ -48,6 +48,14 @@
 ====================================================================
 
  ***/
+ @font-face {
+  font-family: "Futura";
+  src: url("../fonts/futura.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica.ttf") format("truetype");
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -69,7 +77,7 @@ body {
   line-height: 28px;
   font-weight: 400;
   background: #ffffff;
-  font-family: "Jost", sans-serif;
+  font-family: "Helvetica", sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -131,7 +139,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Jost", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: 400;
   font-size: 16px;
 }
@@ -159,7 +167,7 @@ p {
   position: relative;
   font-size: 16px;
   line-height: 28px;
-  font-family: "Jost", sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: #8a8582;
   font-weight: 500;
   margin: 0px;
@@ -173,7 +181,7 @@ h4,
 h5,
 h6 {
   position: relative;
-  font-family: "Jost", sans-serif;
+  font-family: "Futura", sans-serif;
   font-weight: 400;
   color: #35312f;
   margin: 0px;
@@ -237,7 +245,7 @@ h6 {
 }
 
 .handle-preloader .animation-preloader .txt-loading .letters-loading {
-  font-family: "Jost", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: 400;
   letter-spacing: 15px;
   display: inline-block;
@@ -386,7 +394,7 @@ img {
   display: inline-block;
   font-size: 14px;
   line-height: 26px;
-  font-family: "Jost", sans-serif;
+  font-family: "Futura", sans-serif;
   font-weight: 500;
   color: #fff !important;
   text-align: center;
@@ -820,7 +828,7 @@ img {
   line-height: 30px;
   font-weight: 500;
   opacity: 1;
-  font-family: "Jost", sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: #8a8582;
   z-index: 1;
   text-transform: uppercase;
@@ -913,7 +921,7 @@ img {
   padding: 14px 0px;
   line-height: 24px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 15px;
   text-transform: capitalize;
   color: #35312f;
@@ -1021,7 +1029,7 @@ img {
   padding: 14px 0px;
   line-height: 24px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Helvetica", sans-serif;
   text-transform: capitalize;
   color: #35312f;
   border-bottom: 1px solid #f1e6df;
@@ -4061,7 +4069,7 @@ div#mCSB_1_container {
 
 #content_block_6 .content-box .inner-box .left-column .signature span {
   font-size: 16px;
-  font-family: "Jost", sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: #35312f;
 }
 
@@ -4857,7 +4865,7 @@ div#mCSB_1_container {
 
 .about-style-three #content_block_6 .content-box .inner-box .signature span {
   font-size: 18px;
-  font-family: "Jost", sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: #35312f;
   text-transform: uppercase;
 }
