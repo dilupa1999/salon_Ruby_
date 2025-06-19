@@ -6136,3 +6136,21 @@ div#mCSB_1_container {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+input,
+select,
+textarea {
+  padding: 20px !important;
+  font-size: 16px !important;
+  transition: all 0.3s ease !important;
+  background: #fbf4f0 !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none !important;
+  border-color: #667eea !important;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1) !important;
+  transform: translateY(-2px) !important;
+}
