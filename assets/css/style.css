@@ -5922,7 +5922,8 @@ div#mCSB_1_container {
   position: relative;
   display: block;
   float: left;
-  width: 33.333%;
+  width: 50%;
+  height: 100%;
 }
 
 .contact-info-section .single-item .inner-box {
@@ -5931,6 +5932,7 @@ div#mCSB_1_container {
   overflow: hidden;
   background: #000000;
   padding: 53px 60px;
+  height: 100%;
 }
 
 .contact-info-section .single-item .inner-box .bg-layer {
